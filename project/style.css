@@ -1,0 +1,70 @@
+body{
+    background-color: #013ece;
+}
+#main-header{
+    display: flex;
+    justify-content: center;
+}
+.nav-container{
+    display: flex;
+    align-items:center;
+    gap: 5rem;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+#logo{
+
+}
+.nav-list{
+    text-decoration: none;
+    color: #eba43e;
+}
+#nav-parent{
+    width: 50% ;
+}  
+#sectionone{
+   
+    margin-top: 3rem;
+}
+.profile-data{
+    display: flex;
+    justify-content: center;
+}
+.profile{
+        text-align: center;
+        width: 50% ;
+}
+.profile-image{
+        display: flex;
+        justify-content: center;
+}
+.profileimage-container{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    text-align: center;
+
+}
+.profile-image img{
+    border-radius: 50%;
+}
+.image-grid{
+    align-items: center;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr); 
+     gap: 10px;
+     max-width: 400px;
+     margin: 50px;
+}
+.image-grid img {
+      width: 200px;
+      height: 100px;
+      border-radius: 150px; 
+}
+.vid1{
+    display: flex;
+    align-items: center;
+}
