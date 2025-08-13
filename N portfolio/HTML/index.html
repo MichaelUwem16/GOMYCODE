@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my assignment</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        #main-header{
+            display: flex;
+            justify-content: center;
+        }
+        .nav-list{
+           display: flex;
+           list-style: none;
+           gap: 2rem;
+           text-decoration: none;
+           color: #eba43e;
+        }
+       #section-one{
+        margin-top: 3rem;
+       }
+       .profile-data{
+        display: flex;
+        justify-content: center;
+       }
+       .profile{
+        text-align: center;
+        width: 50%;
+       }
+       .profile-image{
+        display: flex;
+        justify-content: center;
+       }
+       .profileimage-container{
+        width:25px ;
+        height:25px ;
+        display:flex ;
+        text-align: center;
+       }
+       .profile-image img{
+        border-radius: 50%;
+        margin-bottom: 50px;
+       }
+       .image-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat( 2, auto);
+        gap: 5px;
+        max-width: 700px;
+        margin: auto;
+       }
+       
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <div class="nav-container" >
+        <ul id="nav-parent" class="nav-list">
+            <li><a class="nav-list">Home</a></li>
+            <li><a class="nav-list">About</a></li>
+            <li><a class="nav-list">Work</a></li>
+            <li><a class="nav-list">Resume</a></li>
+            <li><a class="nav-list">Contact</a></li>
+        </ul>
+    </div>
+    </header>
+    <section id="sectionone">
+        <div class="profile-data">
+         <div class="profile">
+             <h5>HELLO EVERYONE, I AM</h5>
+             <h1>Celia Almeda</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nihil repellendus dicta in doloribus doloremque unde veritatis facere ipsam possimus tenetur, distinctio praesentium omnis. Temporibus quod quia perspiciatis cupiditate ducimus.</p>
+         </div>
+      </div>
+
+      <div class="profile-image">
+          <img src="/images/p1.jpg">
+      </div>
+      <div class="image-container">
+                 <img src="/images/p2.jpg">
+                 <img src="/images/p2.jpg">
+                 <img src="/images/p2.jpg">
+                 <img src="/images/p2.jpg">
+                 <img src="/images/p2.jpg">
+                 <img src="/images/p2.jpg">
+         
+      </div>
+    </section>
+    </body>
+</html>
