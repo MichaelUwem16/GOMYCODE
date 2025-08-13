@@ -1,0 +1,47 @@
+ body{
+            background-color: blue;
+        }
+        #main-header{
+            display: flex;
+            justify-content: center;
+        }
+        .nav-list{
+           display: flex;
+           list-style: none;
+           gap: 2rem;
+           text-decoration: none;
+           color: #eba43e;
+        }
+       #section-one{
+        margin-top: 3rem;
+       }
+       .profile-data{
+        display: flex;
+        justify-content: center;
+       }
+       .profile{
+        text-align: center;
+        width: 50%;
+       }
+       .profile-image{
+        display: flex;
+        justify-content: center;
+       }
+       .profileimage-container{
+        width:25px ;
+        height:25px ;
+        display:flex ;
+        text-align: center;
+       }
+       .profile-image img{
+        border-radius: 50%;
+        margin-bottom: 50px;
+       }
+       .image-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat( 2, auto);
+        gap: 5px;
+        max-width: 700px;
+        margin: auto;
+       }
